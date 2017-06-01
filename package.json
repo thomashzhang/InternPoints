@@ -1,0 +1,28 @@
+{
+  "name": "ucbreqs",
+  "version": "1.0.0",
+  "description": "A program that helps you determine whether you've fulfilled your major requirements",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc | nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/express": "*",
+    "@types/body-parser": "*",
+    "@types/mongoose": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomashzhang/UCBReqs.git"
+  },
+  "author": "Thomas Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomashzhang/UCBReqs/issues"
+  },
+  "engines": {
+    "node": "7.10.0"
+  },
+  "homepage": "https://github.com/thomashzhang/UCBReqs#readme"
+}
