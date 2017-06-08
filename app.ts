@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 const url: string = process.env.MONGODB_URI || "mongodb://localhost";
-mongoose.connect(url + "/home");
+mongoose.connect(url + "/pingtern");
 const db = mongoose.connection;
 
 //Home route
