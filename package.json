@@ -4,13 +4,16 @@
   "description": "A program that keeps your interns in check",
   "main": "app.js",
   "scripts": {
-    "start": "tsc | nodemon",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@types/express": "*",
     "@types/body-parser": "*",
-    "@types/mongoose": "*"
+    "@types/mongoose": "*",
+    "body-parser": "*",
+    "express": "4.15.3",
+    "mongoose": "*"
   },
   "repository": {
     "type": "git",
