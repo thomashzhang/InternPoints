@@ -1,7 +1,7 @@
 {
-  "name": "ucbreqs",
+  "name": "InternPoints",
   "version": "1.0.0",
-  "description": "A program that helps you determine whether you've fulfilled your major requirements",
+  "description": "A program that keeps your interns in check",
   "main": "app.js",
   "scripts": {
     "start": "tsc | nodemon",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomashzhang/UCBReqs.git"
+    "url": "git+https://github.com/thomashzhang/InternPoints.git"
   },
   "author": "Thomas Zhang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thomashzhang/UCBReqs/issues"
+    "url": "https://github.com/thomashzhang/InternPoints/issues"
   },
   "engines": {
     "node": "7.10.0"
   },
-  "homepage": "https://github.com/thomashzhang/UCBReqs#readme"
+  "homepage": "https://github.com/thomashzhang/InternPoints#readme"
 }
