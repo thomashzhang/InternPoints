@@ -1,0 +1,29 @@
+<table class="table">
+	<thead>
+		<div data-ng-show="showError" class="alert alert-danger">
+			<strong>{{errorTitle}}:</strong> {{errorMessage}}
+		</div>
+		<tr>
+			<th style="width: 70%">Intern Name</th>
+			<th style="width: 10%">Intern Points</th>
+			<th style="width: 20%">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<input class='form-control' ng-model='intern.name'>
+			</td>
+			<td>
+				<input class='form-control' ng-model='intern.points'>
+			</td>
+			<td>&nbsp;<button class='btn btn-primary' ng-click='addIntern()'>Add</button></td>
+			
+		</tr>
+		<tr ng-repeat="intern in internlist">
+			<td>{{intern.name}}</td>
+			<td>{{intern.points}}</td>
+			<td><button class='btn btn-info' ng-click='addOne(intern._id, intern)'>+1</button>&nbsp;&nbsp;<button class='btn btn-info' ng-click='subOne(intern._id, intern)'>-1</button>&nbsp;&nbsp;<button class='btn btn-danger' ng-click='remove(intern._id)'>Delete</button></td>
+		</tr>
+	</tbody>
+</table>
